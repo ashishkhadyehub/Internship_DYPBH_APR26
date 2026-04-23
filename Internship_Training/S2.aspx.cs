@@ -7,14 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace Internship_Training
 {
-    public partial class Register : System.Web.UI.Page
+    public partial class S2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["Name"]!=null)
-            {
-                lblName.Text = "Hello," + Session["Name"].ToString();
-            }
+            txtName.Text = Session["Name"].ToString();
+            txtContact.Text = Session["Contact"].ToString();
         }
     }
 }

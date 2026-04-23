@@ -8,6 +8,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
+                <asp:Label runat="server" ID="lblName"></asp:Label>
                 <h2>Register Now</h2>
 
                 <div class="mb-3 mt-3">

@@ -10,7 +10,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div> 
             <div class="container mt-3">
                 <h2>Register Now</h2>
               

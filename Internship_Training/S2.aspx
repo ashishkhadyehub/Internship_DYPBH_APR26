@@ -1,0 +1,16 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User.Master" AutoEventWireup="true" CodeBehind="S2.aspx.cs" Inherits="Internship_Training.S2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+      <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+             <label>Name:</label>
+              <asp:TextBox runat="server" ID="txtName" CssClass="form-control my-2"></asp:TextBox>
+             <label>Contact:</label>
+              <asp:TextBox runat="server" ID="txtContact" CssClass="form-control my-2"></asp:TextBox>
+              
+          </div>
+      </div>
+  </div>
+</asp:Content>
